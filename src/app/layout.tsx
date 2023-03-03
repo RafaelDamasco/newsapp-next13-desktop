@@ -14,12 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Providers>
-        <body className="bg-gray-100 transition-all duration-700 dark:bg-zinc-900">
+      <body className="bg-gray-100 transition-all duration-700 dark:bg-zinc-900">
+        <Providers>
           <Header />
           <div className="mx-auto max-w-6xl">{children}</div>
-        </body>
-      </Providers>
+        </Providers>
+      </body>
     </html>
   );
 }
