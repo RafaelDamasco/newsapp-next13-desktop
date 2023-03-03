@@ -9,7 +9,6 @@ export default async function Homepage() {
 
   return (
     <div>
-      <Loading />
       <NewsList news={news} />
     </div>
   );
