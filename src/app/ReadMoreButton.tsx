@@ -11,7 +11,7 @@ export default function ReadMoreButton({ article }: ReadMoreButtonProps) {
     const queryString = Object.entries(article)
       .map(([key, value]) => `${key}=${value}`)
       .join('&');
-    const url = `/article?${encodeURI(queryString)}`;
+    const url = `/article?${queryString}`;
     router.push(url);
   };
   return (
