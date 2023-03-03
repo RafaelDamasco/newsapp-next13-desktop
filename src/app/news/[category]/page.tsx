@@ -1,4 +1,4 @@
-import NewsList from '@/app/api/NewsList';
+import NewsList from '@/app/NewsList';
 import { categories } from '../../../../constants';
 import fetchNews from 'utils/fetchNews';
 
@@ -16,7 +16,6 @@ export default async function NewsCategoryPage({
     </div>
   );
 }
-
 
 // NEXTJS WILL PRE-BUILD THE THESE PAGES
 // localhost:3000/news/business

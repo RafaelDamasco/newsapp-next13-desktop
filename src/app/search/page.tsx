@@ -1,5 +1,5 @@
 import fetchNews from 'utils/fetchNews';
-import NewsList from '../api/NewsList';
+import NewsList from '../NewsList';
 
 type SearchPageProps = {
   searchParams?: { term: string };
