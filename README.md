@@ -1,4 +1,4 @@
-![NewsApp](https://github.com/RafaelDamasco/crud-angular/assets/29737013/aa84af92-83a8-4cee-b830-5272f181138f)
+![NewsApp](https://github.com/RafaelDamasco/crud-angular/assets/29737013/5d17aabb-a4ce-4ebb-8001-b3ff54a3b519)
 
 # The News App
 
