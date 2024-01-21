@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![NewsApp](https://github.com/RafaelDamasco/crud-angular/assets/29737013/aa84af92-83a8-4cee-b830-5272f181138f)
 
-## Getting Started
+# The News App
 
-First, run the development server:
+The latest world news, browse news by categories, or search for a specific keywords.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🔥 Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project had as its main goal learn about Next.js, Server-Side Rendering (SSR), Incremental Static Regeneration (ISR) and Dynamic Routing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The following features have also been implemented:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+* **Server-Side Rendering:** Rendering pages on the server before sending them to the browser, enhancing loading speed.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* **Incremental Static Regeneration:** Generate static pages with incremental updates, improving efficiency.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* **Dynamic page routing:** Simplifies URL handling, enabling the creation of interactive pages based on parameters.
+  
+* **Typescript:** Highlight the benefits of using TypeScript for reducing bugs and errors in your Next.js 13 application.
 
-## Learn More
+* **GraphQL:** Integrate Stepzen to launch a GraphQL interface and query it using the updated FETCH API in Next.js 13, incorporating revalidation and caching.
+  
+* **Tailwind CSS:** Creating a fully responsive website using the popular utility-first CSS framework.
 
-To learn more about Next.js, take a look at the following resources:
+* **Dark mode:** Implementing a dark mode feature in your web application with Tailwind.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **App folder structure in Next.js:** The new updated application folder structure in Next.js 13.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* **Fetch News:** Pull data from the MediaStack News API in an efficient + optimized manner to prevent overloading the API quota.
+  
+  
+## 📦 Technologies:
+  <!-- Link para pegar as badges: https://github.com/Ileriayo/markdown-badges -->
 
-## Deploy on Vercel
+* ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔨 Instalation Guide
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Clone this repo and install the dependencies
+
+    git clone https://github.com/RafaelDamasco/crud-angular
+    npm i
+    
+### Run the application
+    npm run dev
