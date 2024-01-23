@@ -42,8 +42,17 @@ The following features have also been implemented:
 
 ### Clone this repo and install the dependencies
 
-    git clone https://github.com/RafaelDamasco/crud-angular
+    git clone https://github.com/RafaelDamasco/newsapp-next13-desktop
     npm i
-    
+
+### Go to the file .env.local and place your API keys
+
+  ``MEDIASTACK_API_KEY=YOUR-KEY-HERE``
+  
+  ``STEPZEN_API_KEY=YOUR-KEY-HERE``
+
+
+
 ### Run the application
     npm run dev
+
